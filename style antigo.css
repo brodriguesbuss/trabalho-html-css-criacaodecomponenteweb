@@ -1,0 +1,160 @@
+
+/* 
+
+Considerações do mestre Watson
+
+- Mudar a tag pra p, strong ou span
+- Adicionar uma classe bignumber, seguir padrao kebab (https://www.alura.com.br/artigos/convencoes-nomenclatura-camel-pascal-kebab-snake-case)
+- Escrever classe css (https://desenvolvimentoparaweb.com/css/bem/)
+- Nao usar id pq ele registra la na arvore do DOM, evitar usar
+- Evitar usar <front color 
+
+*/
+
+
+body{
+    /* padding: 101px 120px 102px; */
+    gap: 116px;
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 624px;
+    margin: 0px;
+
+}
+
+div.todo{
+    width: 1900px;
+    height: 120px;
+    box-shadow: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 403.67px;
+    height: 119.8px;
+    box-shadow: 0px 0px 6.48px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;   
+
+
+}
+
+div.realizados{
+    left: 0px;
+    
+    
+
+}
+
+div.liberados{
+    left: 403.67px;
+    background-color: #F2F0F0; 
+}
+
+div.emitidos{
+    left: 807.33px;
+    box-shadow: 0px 0px 6.48px rgba(0, 0, 0, 0.15);
+
+    
+}
+
+
+h1{
+    width: 356px;
+    height: 74px;
+    left: 28.06px;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 2.25rem;
+    letter-spacing: -1.17895px;
+    color: rgba(204, 37, 121, 1);
+    word-wrap: normal;
+
+    
+}
+
+@media(max-width: 960px){
+    body, div.realizados, div.emitidos, div.liberados{        
+        display: flex;
+        align-items: flex-start;
+        box-shadow: 0px 0px 0px;
+        left: 0px;
+        width: 100%; 
+        height: 110px;
+        top: 0;  
+        margin: auto;
+        justify-content: center;
+    } 
+
+    div.todo{
+        display: block;      
+  
+    }
+
+    h1{
+
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 25px;
+        letter-spacing: -0.811966px;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        word-wrap: normal;
+        padding: 0 16vw 0 16vw;
+        justify-content: center;
+        width: 246px;
+
+    }
+
+
+ .realizados{ 
+        top: 0px;
+        left: 0px; 
+        align-items: center;  
+
+
+    }
+
+    .liberados{
+        top: 112px;
+        left: 0px;
+        align-items: center;
+
+    }
+
+    .emitidos{   
+        top: 222px;
+        left: 0px;  
+        align-items: center;  
+
+      
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

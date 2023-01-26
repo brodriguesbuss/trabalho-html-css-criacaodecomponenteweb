@@ -1,0 +1,97 @@
+@media(min-width: 0px) {
+
+    body {
+        /* Por padrão, o body começa com 8px */
+        margin: 0;
+    }
+
+    .bignumbers--card {
+        /* Display:flex - Possui propriedades para alinhamento e centralização do elemento */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 104px;
+
+    }
+
+    .bignumbers--card--text--pink {
+        color: hsl(340, 47%, 48%);
+    }
+
+    .bignumbers--card--text--black{
+        color: hsl(225, 25%, 24%);
+    }
+
+    .bignumbers--card--gray {
+        background-color: hsl(360, 11%, 94%);
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: -.022222222222222rem;
+        line-height: 1.75rem;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15.7rem;
+
+    }
+}
+
+@media(min-width: 768px) {
+
+    * {    
+        /* Inclui preenchimento e borda na largura e altura total do elemento: */
+        box-sizing: border-box;
+    }
+    
+    body{
+        margin: 0.75rem;
+        
+    }
+
+    .big-numbers {
+        /* Transforma divs lado a lado */
+        display: grid;
+        /* Define quantas colunas lado a lado */
+        grid-template-columns: repeat(3, 1fr);
+        box-shadow: 0 1px 4px 0 rgba(91, 98, 122, 0.3);
+
+    }
+
+    .bignumbers--card{
+        height: 132px;
+        padding: 1rem;
+        
+    }
+
+    p{
+        width: 100%;
+    }
+
+
+}
+
+@media(min-width: 1024px) {
+
+    .big-numbers{
+        max-width: 1360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bignumbers--card{
+        height: 156px;
+        padding: 1.4rem;
+    }
+
+    p{
+        font-size: 2rem;
+        line-height: 2.25rem;
+        margin: 0px;
+    }
+
+
+}
