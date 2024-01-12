@@ -1,4 +1,4 @@
-# Repositório de Trabalho - Desafio de Componente e Workflow
+# Repositório de Trabalho: Desafio de Componente e Workflow
 
 Bem-vindo ao meu repositório de trabalho! Aqui, documentarei minha jornada de crescimento técnico em programação, especialmente focada na criação de um componente como parte do meu Plano de Desenvolvimento Individual (PDI). Este desafio foi proposto como uma oportunidade de prática, com a clara compreensão de que o código gerado não será implantado em produção.
 
